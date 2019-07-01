@@ -1,10 +1,19 @@
+import Tasks from 'pages/Tasks'
+import Index from 'pages/Index'
 
 const routes = [
   {
     path: '/',
     component: () => import('layouts/MyLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/Index.vue') }
+      {
+        path: '/tasks',
+        component: Tasks
+      },
+      {
+        path: '/index',
+        component: Index
+      }
     ]
   }
 ]
