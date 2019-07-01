@@ -1,0 +1,38 @@
+{
+  "name": "timetrack",
+  "version": "0.0.1",
+  "description": "A time tracking app.",
+  "productName": "Time Tracker",
+  "cordovaId": "com.gmbcgroup.timetrack",
+  "author": "Mario Muja <muja@gmbcgroup.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "quasar": "^1.0.0-beta.0"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0-beta.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "devtron": "^1.4.0",
+    "electron": "^4.2.5",
+    "electron-builder": "^20.44.4",
+    "electron-debug": "^2.2.0",
+    "electron-devtools-installer": "^2.2.4",
+    "eslint": "^5.10.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^5.0.0"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
