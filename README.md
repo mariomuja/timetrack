@@ -1,3 +1,3 @@
-# Quasar App
+# A Time Tracker App
 
-> WIP
+> 
