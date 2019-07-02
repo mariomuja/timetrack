@@ -1,5 +1,7 @@
 import Tasks from 'pages/Tasks'
-import Index from 'pages/Index'
+import Projects from 'pages/Projects'
+import CostCenters from 'pages/CostCenters'
+import Users from 'pages/Users'
 
 const routes = [
   {
@@ -11,8 +13,16 @@ const routes = [
         component: Tasks
       },
       {
-        path: '/index',
-        component: Index
+        path: '/projects',
+        component: Projects
+      },
+      {
+        path: '/costCenters',
+        component: CostCenters
+      },
+      {
+        path: '/users',
+        component: Users
       }
     ]
   }

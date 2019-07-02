@@ -14,6 +14,6 @@
 
 <script>
 export default {
-  name: 'Index'
+  name: 'CostCenters'
 }
 </script>
