@@ -1,19 +1,42 @@
 <template>
-  <q-page class="flex flex-center page">
-  </q-page>
+<q-page>
+    <q-table
+      title="Cost Centers"
+      :data="data"
+      :columns="columns"
+      row-key="name"
+    >
+      <template v-slot:body="props">
+        <q-tr :props="props">
+          <q-td key="description" :props="props">{{ props.row.description }}</q-td>
+        </q-tr>
+      </template>
+    </q-table>
+</q-page>
 </template>
-
-<style>
-.page {
-   background-image: url('~assets/gmbc_webpage_logo.png');
-   background-repeat:no-repeat;
-   background-position: center center;
-   opacity:0.6;
-}
-</style>
 
 <script>
 export default {
-  name: 'CostCenters'
+  data () {
+    return {
+      columns: [
+        { name: 'description', label: 'Description', align: 'left', field: 'description', sortable: true }
+      ],
+      data: [
+        {
+          description: 'Cost Center 1'
+        },
+        {
+          description: 'Cost Center 2'
+        }
+      ]
+    }
+  }
 }
 </script>
+
+<style>
+.page {
+   opacity:1;
+}
+</style>

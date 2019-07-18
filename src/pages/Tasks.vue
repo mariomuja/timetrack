@@ -23,7 +23,6 @@
       title="Tasks"
       :data="data"
       :columns="columns"
-      :pagination-label="test"
       row-key="name"
     >
       <template v-slot:body="props">
