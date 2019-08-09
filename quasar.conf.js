@@ -138,7 +138,7 @@ module.exports = function (ctx) {
     },
 
     cordova: {
-      // id: 'com.gmbcgroup.timetrack',
+      // id: 'de.mariomuja.timetrack',
       // noIosLegacyBuildFlag: true, // uncomment only if you know what you are doing
     },
 

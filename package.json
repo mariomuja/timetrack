@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "A time tracking app.",
   "productName": "Time Tracker",
-  "cordovaId": "com.gmbcgroup.timetrack",
-  "author": "Mario Muja <muja@gmbcgroup.com>",
+  "cordovaId": "de.mariomuja.timetrack",
+  "author": "Mario Muja <mario.muja@gmx.de>",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue src",

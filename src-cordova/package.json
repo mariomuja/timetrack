@@ -1,5 +1,5 @@
 {
-  "name": "com.gmbcgroup.timetrack",
+  "name": "de.mariomuja.timetrack",
   "displayName": "Time Tracker",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",

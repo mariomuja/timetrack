@@ -5,7 +5,7 @@
 
 <style>
 .page {
-   background-image: url('~assets/gmbc_webpage_logo.png');
+   background-image: url('~assets/logo.png');
    background-repeat:no-repeat;
    background-position: center center;
    opacity:0.6;
